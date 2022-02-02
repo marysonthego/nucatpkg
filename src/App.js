@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./nucat.css";
+import "./styles.css";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <Container fluid>
+      <Navbar bg="light" expand={true} sticky="top">
+        <Navbar.Brand href="/"> MarysOnTheGo.tech</Navbar.Brand>
+        <div
+          id="navbarResponsive"
+          className="navbar-nav flex-row justify-content-end"
         >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <a className="nav-item me-2" href="/nucat">
+            Home
+          </a>
+          <a className="nav-item " href="/aboutus">
+            About
+          </a>
+        </div>
+      </Navbar>
+    </Container>
   );
 }
 
