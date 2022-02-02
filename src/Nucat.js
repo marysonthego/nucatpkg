@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import "./nucat.css";
 
-export const Nucat = () => {
+export default function Nucat() {
   return (
     <>
       <header className="masthead hero-image">
