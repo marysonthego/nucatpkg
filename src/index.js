@@ -1,9 +1,9 @@
-import Nucat from './Nucat.js'; 
+import NucatApp from './NucatApp.js'; 
 
 //Include the components you want to expose outside of the package
 const nucat = () => { 
   return { 
-    Nucat: Nucat
+    NucatApp: NucatApp
   } 
 }; 
 export default nucat();
