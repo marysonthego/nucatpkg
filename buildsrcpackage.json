@@ -1,7 +1,7 @@
 {
   "name": "nucat",
   "version": "0.1.0",
-  "homepage": "http://localhost:3000/nucat",
+  "homepage": "/nucat",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",
