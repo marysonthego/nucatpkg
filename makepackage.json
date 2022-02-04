@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "author": "Mary Clark",
+  "description": "Nucat Parallax Kittens",
+  "main": "dist/index.esm.js",
+  "keywords": ["react", "parallax", "nucat"],
+  "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.16.7"
   },
@@ -45,9 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "Nucat Parallax Kittens",
-  "main": "index.js",
-  "keywords": [],
-  "license": "MIT"
+  }
 }
