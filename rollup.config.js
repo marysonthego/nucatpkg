@@ -26,7 +26,7 @@ MODE.map((m) => {
         input: input,
         output: {
             // name of your package
-            name: "nucat",
+            name: "nucatpkg",
             file: `dist/index.${m.fomart}.js`,
             format: m.fomart,
             exports: "auto"
