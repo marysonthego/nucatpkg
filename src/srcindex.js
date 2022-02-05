@@ -1,9 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import NucatApp from "./NucatApp";
+import NucatApp from "./App";
 import { ScrollToTop } from "./ScrollToTop";
-import { Nucat } from "./Nucat";
+import Nucat from "./Nucat";
 import { AboutUs } from "./AboutUs";
 import "./index.css";
 import "./nucat.css";

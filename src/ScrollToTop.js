@@ -9,7 +9,7 @@ export function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
   const scrollToTop = () => {
-    document.getElementById("nroot").scroll(0,0);
+    document.getElementById("root").scroll(0,0);
     // window.scrollTo({
     //   top: 0,
     //   behavior: "smooth",

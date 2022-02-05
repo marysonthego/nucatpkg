@@ -1,9 +1,8 @@
 import "./App.css";
 import "./nucat.css";
 import "./styles.css";
-import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
-import React, { useLayoutEffect } from "react";
+import React from "react";
 import "./index.css";
 
 function NucatApp() {
