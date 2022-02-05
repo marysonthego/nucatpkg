@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 function App() {
   return (
-    <Container fluid>
+    
       <Navbar bg="light" expand={true} sticky="top">
         <Navbar.Brand href="/"> MarysOnTheGo.tech</Navbar.Brand>
         <div
@@ -21,7 +21,7 @@ function App() {
           </a>
         </div>
       </Navbar>
-    </Container>
+  
   );
 }
 

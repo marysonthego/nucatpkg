@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import NucatApp from "./NucatApp";
 import { ScrollToTop } from "./ScrollToTop";
 import { Nucat } from "./Nucat";
 import { AboutUs } from "./AboutUs";
@@ -10,7 +11,7 @@ import "./nucat.css";
 ReactDOM.render(
   <>
     <React.StrictMode>
-      <App />
+      <NucatApp />
       <Router>
         <Routes>
           <Route path="/nucat" element={<Nucat />} />
