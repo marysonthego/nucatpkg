@@ -8,12 +8,8 @@ import "./index.css";
 export function ScrollToTop() {
   const [isVisible, setIsVisible] = useState(false);
 
-  
-
-  // Set the top cordinate to 0
-  // make scrolling smooth
   const scrollToTop = () => {
-    document.getElementById("scrolling").scroll(0,0);
+    document.getElementById("nroot").scroll(0,0);
     // window.scrollTo({
     //   top: 0,
     //   behavior: "smooth",
@@ -34,7 +30,7 @@ export function ScrollToTop() {
   }, []);
 
   return (
-    <Container id="scrolling"
+    <Container
       fluid
       overflow="hidden"
       display="grid"
