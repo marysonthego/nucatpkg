@@ -1,9 +1,7 @@
 import "./App.css";
 import "./nucat.css";
 import "./styles.css";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import React, { useLayoutEffect } from "react";
+import React from "react";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { ScrollToTop } from "./ScrollToTop";
@@ -24,13 +22,12 @@ ReactDOM.render(
       <ScrollToTop className="ScrollToTop" />
     </React.StrictMode>
   </>,
-  document.getElementById("nroot")
+  document.getElementById("root")
 );
 
 function NucatApp() {
   return (
     <div>
-      <Navbar.Brand href="/"> MarysOnTheGo.tech</Navbar.Brand>
       <div
         id="navbarResponsive"
         className="navbar-nav flex-row justify-content-end"
