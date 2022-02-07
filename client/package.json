@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://nucat.marysonthego.tech/",
   "private": true,
+  "main": "index.js",
   "dependencies": {
     "react": "^17.0.2",
     "react-bootstrap": "^2.1.2",
