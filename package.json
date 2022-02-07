@@ -32,9 +32,9 @@
   "scripts": {
     "start": "node app",
     "server": "nodemon",
-    "client": "npm start --prefix src",
+    "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" --kill-others --kill-others-on-fail",
-    "build": "npm run build --prefix src",
+    "build": "npm run build --prefix client",
     "public": "serve -s public"
   }
 }
