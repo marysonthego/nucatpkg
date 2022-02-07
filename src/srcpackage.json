@@ -1,7 +1,7 @@
 {
   "name": "nucatpkg",
   "version": "0.1.0",
-  "homepage": "/nucat",
+  "homepage": "https://nucat.marysonthego.tech/",
   "private": true,
   "dependencies": {
     "react": "^17.0.2",

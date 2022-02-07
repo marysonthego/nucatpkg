@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
 import NucatApp from "./App";
 import { ScrollToTop } from "./ScrollToTop";
 import Nucat from "./Nucat";
@@ -15,7 +15,9 @@ ReactDOM.render(
       <Router>
         <Routes>
           <Route path="/nucat" element={<Nucat />} />
+          <Route path="/" element={<Navigate replace to="/nucat" />} />
           <Route path="/aboutus" element={<AboutUs />} />
+          <Route path="*" element={<Navigate replace to="/nucat" />} />
         </Routes>
       </Router>
       <ScrollToTop className="ScrollToTop" />
